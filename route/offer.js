@@ -4,7 +4,6 @@ const router = express.Router();
 const fileUpload = require("express-fileupload");
 const convertToBase64 = require("../functions/convertToBase64");
 
-const mongoose = require("mongoose");
 const Offer = require("../model/Offer");
 const auth = require("../middleware/auth");
 
